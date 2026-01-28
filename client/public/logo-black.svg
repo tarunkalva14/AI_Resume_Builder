@@ -1,0 +1,66 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 200 60" filter="url(#shadow)">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <ns0:stop offset="50%" style="stop-color:#e8e8e8;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#d0d0d0;stop-opacity:1" />
+    </ns0:linearGradient>
+    
+    
+    <ns0:linearGradient id="shadowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#888888;stop-opacity:0.6" />
+      <ns0:stop offset="100%" style="stop-color:#666666;stop-opacity:0.8" />
+    </ns0:linearGradient>
+    
+    
+    <ns0:radialGradient id="dotGradient" cx="40%" cy="40%">
+      <ns0:stop offset="0%" style="stop-color:#7FFF00;stop-opacity:1" />
+      <ns0:stop offset="70%" style="stop-color:#00FF00;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#00CC00;stop-opacity:1" />
+    </ns0:radialGradient>
+    
+    
+    <ns0:filter id="depth" x="-50%" y="-50%" width="200%" height="200%">
+      <ns0:feGaussianBlur in="SourceAlpha" stdDeviation="1" />
+      <ns0:feOffset dx="0" dy="1" result="offsetblur" />
+      <ns0:feComponentTransfer>
+        <ns0:feFuncA type="linear" slope="0.3" />
+      </ns0:feComponentTransfer>
+      <ns0:feMerge>
+        <ns0:feMergeNode />
+        <ns0:feMergeNode in="SourceGraphic" />
+      </ns0:feMerge>
+    </ns0:filter>
+  </ns0:defs>
+  
+  
+  <ns0:text x="20" y="40" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#000000" opacity="0.3">
+    resume
+  </ns0:text>
+  <ns0:text x="20.5" y="40.5" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#000000" opacity="0.4">
+    resume
+  </ns0:text>
+  <ns0:text x="21" y="41" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#000000" opacity="0.5">
+    resume
+  </ns0:text>
+  
+  
+  <ns0:text x="22" y="42" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#000000" filter="url(#depth)">
+    resume
+  </ns0:text>
+  
+  
+  <ns0:text x="22" y="42" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#000000" opacity="0.4">
+    resume
+  </ns0:text>
+  
+  
+  <ns0:circle cx="177" cy="37" r="5.5" fill="#000000" opacity="0.4" />
+  
+  
+  <ns0:circle cx="176" cy="35" r="5.5" fill="#000000" />
+  
+  
+  <ns0:circle cx="174.5" cy="33" r="2" fill="#000000" opacity="0.6" />
+<defs><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="2" dy="2" stdDeviation="2" flood_color="#333" flood_opacity="0.6" /></filter></defs></ns0:svg>
